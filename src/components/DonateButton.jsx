@@ -22,7 +22,7 @@ export function DonateButton({ variant = 'primary', className }) {
 
   return (
     <Link className={className} href="https://legend.lnbits.com/tipjar/794">
-      ⚡ Donate to Cashu
+      ⚡ Donate with Lightning
     </Link>
   )
 }

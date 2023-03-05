@@ -3,25 +3,20 @@ import { Heading } from '@/components/Heading'
 
 const resources = [
   {
-    href: '/get-started',
-    name: 'Getting Started',
-    description: 'Learn the basics of using Cashu.',
+    href: '/resources/media',
+    name: 'Cashu in the Media',
+    description: 'Listen to Podcasts and read Articles about Cashu and Chaumian ecash.',
   },
   {
-    href: '/apps',
-    name: 'Cashu Apps',
+    href: '/projects',
+    name: 'Explore Projects',
     description:
-      'Explore the different Cashu apps.',
+      'Explore the different Open Source Cashu apps that have been built so far.',
   },
   {
     href: '/protocol',
-    name: 'The Cashu Protocol',
+    name: 'Cashu Protocol',
     description: 'Go deeper into how the Cashu protocol works.',
-  },
-  {
-    href: '/why-cashu',
-    name: 'Why do we need Cashu?',
-    description: "Learn about why Cashu exists and why it's important.",
   },
 ]
 

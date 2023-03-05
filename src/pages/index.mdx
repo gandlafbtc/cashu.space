@@ -2,12 +2,15 @@ import { Resources } from '@/components/Resources'
 import { Guides } from '@/components/Guides'
 import { HeroPattern } from '@/components/HeroPattern'
 import { DonateButton } from '@/components/DonateButton'
+import { Code } from '@/components/Code'
 
 export const description =
   'Cashu is a free and open-source Chaumian ecash system built for Bitcoin.'
 
 export const sections = [
   { title: 'What is Cashu?', id: 'what-is-cashu' },
+  { title: 'Apps', id: 'apps' },
+  { title: 'Libraries', id: 'libs' },
   { title: 'Resources', id: 'resources' },
   { title: 'Guides', id: 'guides' },
 ]
@@ -19,16 +22,23 @@ export const sections = [
 Cashu is a free and open-source Chaumian ecash system built for Bitcoin. Cashu offers near-perfect privacy for users of custodial Bitcoin applications. Nobody needs to knows who you are, how much funds you have, and with whom you transact with. {{ className: 'text-lg md:text-xl break-words max-w-xl' }}
 
 <div className="not-prose mb-16 mt-6 flex flex-col gap-3 md:flex-row">
-  <Button href="/get-started" arrow="right" children="Get Started" />
+  <Button href="/projects" arrow="right" children="Explore" />
+  <Button
+    href="/protocol"
+    variant="outline"
+    children="Understand"
+  />
+  <Button
+    href="/contribute"
+    variant="outline"
+    children="Support"
+  />  
+  {/*
   <DonateButton
     href="https://legend.lnbits.com/tipjar/794"
     variant="secondary"
   />
-  <Button
-    href="/why-cashu"
-    variant="outline"
-    children="Why Cashu?"
-  />
+  */}
 </div>
 
 ## What is Cashu? {{ id: 'what-is-cashu' }}
@@ -37,13 +47,13 @@ Cashu is a new ecash protocol for custodial Bitcoin applications that is tightly
 
 ### Cryptography
 
-Cashu is an Ecash implementation based on [David Wagner's variant](https://cypherpunks.venona.com/date/1996/03/msg01848.html) of Chaumian blinding (protocol specs).
+Cashu is an Ecash implementation based on [David Wagner's variant](https://cypherpunks.venona.com/date/1996/03/msg01848.html) of Chaumian blinding (protocol specs) which was later written and discussed in this [thread](https://gist.github.com/RubenSomsen/be7a4760dd4596d06963d67baf140406).
 
 ### Protocol
 
 Cashu [NUTs](https://github.com/cashubtc/nuts) (Notation, Usage, and Terminology) are Cashu's protocol specifications and the developer libraries make it easy to write wallets and mints. 
 
-### Apps
+## Apps {{ id: 'apps' }}
 
 There are multiple implementations of the Cashu protocol. Cashu is available as a command line interface (CLI) tool and as Progressive Web Apps (PWA) with a graphical user interface.
 
@@ -53,7 +63,8 @@ There are multiple implementations of the Cashu protocol. Cashu is available as 
   <Button href="https://github.com/cashubtc/cashu" variant="outline" children="Cashu CLI" />
 </div>
 
-### Libraries
+
+## Libraries {{ id: 'libs' }}
 
 Cashu is a libraries are available for Python, Golang, Javascript, and Typescript. 
 

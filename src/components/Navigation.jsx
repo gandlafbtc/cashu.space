@@ -220,7 +220,6 @@ export function Navigation(props) {
           />
         ))}
       </ul>
-      <DonateButton variant="outline" className="mt-6" />
     </nav>
   )
 }
