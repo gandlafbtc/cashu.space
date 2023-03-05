@@ -188,13 +188,13 @@ export const navigation = [
     title: 'Content',
     links: [
       { title: 'Introduction', href: '/' },
-      { title: 'Why Cashu', href: '/why-cashu' },
-      { title: 'Get Started', href: '/get-started' },
+      // { title: 'Why Cashu', href: '/why-cashu' },
+      // { title: 'Get Started', href: '/get-started' },
       { title: 'Cashu Protocol', href: '/protocol' },
-      { title: 'Apps', href: '/apps' },
-      { title: 'Wallets', href: '/clients' },
-      { title: 'Mints', href: '/mints' },
-      { title: 'Other projects', href: '/projects' },
+      // { title: 'Apps', href: '/apps' },
+      // { title: 'Wallets', href: '/clients' },
+      // { title: 'Mints', href: '/mints' },
+      { title: 'Projects', href: '/projects' },
       { title: 'Contribute', href: '/contribute' },
       { title: 'FAQ', href: '/faq' },
     ],
@@ -202,9 +202,8 @@ export const navigation = [
   {
     title: 'Resources',
     links: [
-      { title: 'Tutorials', href: '/guides/iris' },
-      { title: 'Articles', href: '/guides/damus' },
-      { title: 'Talks', href: '/guides/amethyst' },
+      { title: 'Guides', href: '/resources/guides' },
+      { title: 'Media', href: '/resources/media' },
     ],
   },  
 ]

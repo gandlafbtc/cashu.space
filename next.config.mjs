@@ -19,25 +19,6 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
-  async redirects() {
-    return [
-      {
-        source: '/clients/iris',
-        destination: '/guides/iris',
-        permanent: true,
-      },
-      {
-        source: '/clients/damus',
-        destination: '/guides/damus',
-        permanent: true,
-      },
-      {
-        source: '/clients/amethyst',
-        destination: '/guides/amethyst',
-        permanent: true,
-      },
-    ]
-  },
 }
 
 export default withMDX(nextConfig)
