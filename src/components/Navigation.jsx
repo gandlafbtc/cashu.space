@@ -191,7 +191,7 @@ export const navigation = [
       // { title: 'Why Cashu', href: '/why-cashu' },
       // { title: 'Get Started', href: '/get-started' },
       { title: 'Cashu Protocol', href: '/protocol' },
-      // { title: 'Apps', href: '/apps' },
+      { title: 'Libraries', href: '/libraries' },
       // { title: 'Wallets', href: '/clients' },
       // { title: 'Mints', href: '/mints' },
       { title: 'Projects', href: '/projects' },
